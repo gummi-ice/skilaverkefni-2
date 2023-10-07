@@ -1,5 +1,14 @@
-import 'package:skilaverkefni_2/skilaverkefni_2.dart' as skilaverkefni_2;
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${skilaverkefni_2.calculate()}!');
+void main() {
+  int sum = 0;
+
+  for (int i = 1; i <= 10; i++) {
+    print(i);
+
+    sum += i;
+  }
+
+  print("The sum is $sum");
+
 }
